@@ -1,0 +1,39 @@
+@import '../../styles/config';
+
+.root {
+	width: 100%;
+	border-radius: 1em;
+	box-shadow: 0.3em 0.4em 0.5em 0.1em rgba(128, 128, 128, 0.404);
+}
+
+.content {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+}
+
+.columnIds {
+	padding: 0.5em;
+	width: 30%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.columnData {
+	padding: 0.7em;
+	width: 70%;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.dataEntry {
+	width: 100%;
+	padding: 0.5em 1em;
+}
+
+.id {
+	width: 100%;
+	padding: 0.5em 1em;
+}
